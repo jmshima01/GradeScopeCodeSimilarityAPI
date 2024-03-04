@@ -13,7 +13,7 @@ class Gradscope_Similarity_HTML_Parser:
     def __create_df(self) -> pd.DataFrame:
         # reads html tables into df
         df = pd.read_html(self.path)[0]
-        print(df.columns)
+        # print(df.columns)
         # "xx%" -> int(xx)
         fix_percent = lambda x : list(map(lambda y: int(y[:-1]),x))
         
@@ -61,7 +61,7 @@ class Gradscope_Similarity_HTML_Parser:
             pair = tuple(sorted(pair))
             pairs[pair] = [v["Similarity"],v["Match Length"]]
             pair = []
-        print(pairs)
+        # print(pairs)
 
         to_csv = [["Pair","Similarity", "Match Length"]]
 
