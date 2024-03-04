@@ -24,4 +24,4 @@ and the resulting should be passes quoted into the above arg for the python scri
 
 # Full Example for Assessment 2:
 `python3 get_html.py 2 '<gradescope_cookie>'`\
-`python3 parse.py 3 report2.html 50 submission.py main.py`
+`python3 parse.py 2 report2.html 70 submission.py main.py`
