@@ -19,7 +19,7 @@ There are many ways to obtain a gradescope cookie for `<gradescope_cookie>`, the
 is to sign into gradescope and then press...\
 `CTRL+SHIFT+I`\
 and type into console...\
-`console.log(documents.cookie)`\
+`console.log(document.cookie)`\
 and the resulting should be passes quoted into the above arg for the python script\
 
 # Full Example for Assessment 2:
