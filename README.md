@@ -18,7 +18,7 @@ refresh the page and you should see a html file pop up
 
 right click the request and select `copy as cUrl`
 
-![alt text](https://github.com/jmshima01/GradescopeSimilarityAPI/img.png)
+![alt text]([https://github.com/jmshima01/GradescopeSimilarityAPI/img.png](https://github.com/jmshima01/GradescopeCodeSimilarityAPI/blob/main/img.png))
 
 then paste the result in your terminal and redirect it to a file of your choice
 `curl ... > file.html`
