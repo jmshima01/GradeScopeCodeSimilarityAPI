@@ -1,4 +1,4 @@
-# GradeScopeCodeSimilarityAPI
+# GradeScope Code Similarity HTML Scraper
 This is a python script to grab and parse the Review Similarity Report html into nicely formated `.csv` files 
 with more helpful data formating such as group collaberations
 
